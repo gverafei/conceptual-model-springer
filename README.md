@@ -1,7 +1,7 @@
 # A Conceptual Model for Born-Accessible Web Accessibility Remediation Using Large Language Models
 ### Programming and Computer Software Journal (Springer, ISSN 0361-7688)
 
-<center><img src="code/images/Fig13.png" style="margin:auto; width:100%"/></center>
+<center><img src="images/Fig13.png" style="margin:auto; width:100%"/></center>
 
 This repository contains the source code and associated files to replicate the experiments described in our submission to *Programming and Computer Software Journal (Springer, ISSN 0361-7688)*. This README provides an overview of the repository structure, manuscript details, and usage instructions.
 

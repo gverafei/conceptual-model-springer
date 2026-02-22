@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gefälscht CompuTech - Accessible Computer Services</title>
+    <meta name="robots" content="noindex, nofollow">
+    <!--[if lt IE 9]> 
+    <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+    <![endif]-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('table.data_table tbody tr:odd td').addClass('odd_row');
+            $('table.data_table tbody tr:even td').addClass('even_row');
+        });
+    </script>
+    <style type="text/css">
+        /* WCAG 2.2 Compliant Styles */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: #000;
+            color: white;
+            padding: 8px;
+            z-index: 100;
+        }
+        .skip-link:focus {
+            top: 0;
+        }
+        header {
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header h1 a {
+            color: #003366;
+            text-decoration: none;
+        }
+        header h1 a:hover, header h1 a:focus {
+            text-decoration: underline;
+        }
+        .topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+            background: #003366;
+            padding: 10px;
+        }
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+        nav ul li a:hover, nav ul li a:focus {
+            background-color: #ffffff;
+            color: #003366;
+            outline: 2px solid #003366;
+        }
+        nav ul li.active a {
+            border-bottom: 3px solid #ffcc00;
+        }
+        .intro {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 40px;
+            align-items: flex-start;
+        }
+        .intro img {
+            max-width: 300px;
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        .homecontent ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .homecontent li {
+            border: 1px solid #ddd;
+            padding: 15px;
+            background: #fff;
+        }
+        .imgl {
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 10px;
+            border: 1px solid #999;
+        }
+        .imageline ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        .imageline img {
+            border: 2px solid #003366;
+            max-width: 100%;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #ffffff;
+            padding: 30px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        footer h2 {
+            font-size: 1.2em;
+            color: #ffcc00;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+        footer ul li {
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #66ccff;
+            text-decoration: underline;
+        }
+        footer a:hover, footer a:focus {
+            color: #ffffff;
+        }
+        .copyright {
+            background: #000;
+            color: #ccc;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9em;
+        }
+        .courseAssets {
+            color: #000 !important;
+        }
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #333;
+        }
+        input[type="submit"] {
+            padding: 8px 15px;
+            background: #003366;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: #0055aa;
+        }
+        .clear { clear: both; }
+    </style>
+</head>
+<body id="top">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <div class="wrapper">
+        <header>
+            <div class="fl_left">
+                <h1><a href="https://webtestingcourse.dequecloud.com/">Gefälscht CompuTech</a></h1>
+                <p>High-Quality Fake Computer Solutions</p>
+            </div>
+            <div class="clear"></div>
+        </header>
+
+        <div class="topbar">
+            <div class="contact-info">
+                <p>Tel: <a href="tel:7035551212">703-555-1212</a> | Mail: <a href="mailto:info@deque.com">info@deque.com</a></p>
+            </div>
+            <div class="search-form">
+                <form action="https://webtestingcourse.dequecloud.com/search.php" method="get" role="search">
+                    <label for="site-search" class="sr-only">Search the site</label>
+                    <input type="text" id="site-search" name="q" placeholder="Search the site…">
+                    <input type="submit" name="go" id="go" value="GO">
+                </form>
+            </div>
+        </div>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li class="active"><a href="https://webtestingcourse.dequecloud.com/index.php" aria-current="page">Home</a></li>
+                <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php">Laptops &amp; Notebooks</a></li>
+                <li><a href="https://webtestingcourse.dequecloud.com/desktops.php">Desktops</a></li>
+                <li><a href="https://webtestingcourse.dequecloud.com/cart.php">Cart</a></li>
+                <li><a href="https://webtestingcourse.dequecloud.com/support.php">Support</a></li>
+                <li><a href="https://webtestingcourse.dequecloud.com/contact.php">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main id="main-content">
+            <section class="intro" aria-labelledby="intro-heading">
+                <div class="fl_left">
+                    <img src="https://webtestingcourse.dequecloud.com/images/site/homeLanding.jpg" alt="A modern workspace with high-end computer hardware and monitors.">
+                </div>
+                <div class="fl_right">
+                    <h2 id="intro-heading">Welcome to Gefälscht CompuTech</h2>
+                    <p><em>Gefälscht</em> - German for "Fake". This is a demonstration website created by Deque Systems for accessibility training purposes. 
+                    This version has been corrected to meet WCAG 2.2 standards. It serves as an example of how to implement semantic HTML, proper heading structures, and accessible navigation. 
+                    If you need assistance making your actual website accessible, please <a href="http://www.deque.com" target="_blank" rel="noopener noreferrer">contact Deque Systems (opens in new window)</a>.</p>
+                </div>
+                <div class="clear"></div>
+            </section>
+
+            <section class="homecontent" aria-labelledby="services-heading">
+                <h2 id="services-heading" class="sr-only">Our Services</h2>
+                <ul>
+                    <li>
+                        <h3>Parts and Supplies</h3>
+                        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-1.jpg" alt="Assorted computer circuit boards and components.">
+                        <p>We sell parts and supplies for every computer we sell and even some that we don't. If a part exists, we will find it for you. Our inventory is the most comprehensive in the fake industry.</p>
+                        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/support.php" aria-label="Continue reading about Parts and Supplies">Continue Reading »</a></p>
+                    </li>
+                    <li>
+                        <h3>Visit our Brick &amp; Mortar Store</h3>
+                        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-2.jpg" alt="Exterior view of our corporate retail location.">
+                        <p>Our corporate offices are located in a premium shopping district. We invite you to visit us in person to experience our opulently appointed showroom and meet our expert staff.</p>
+                        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/contact.php" aria-label="Continue reading about our Brick and Mortar Store">Continue Reading »</a></p>
+                    </li>
+                    <li>
+                        <h3>In Home Computer Service</h3>
+                        <img class="imgl" src="https://webtestingcourse.dequecloud.com/images/site/small60-3.jpg" alt="A technician repairing a laptop computer.">
+                        <p>If you can't come to us, we'll come to you. We provide comprehensive in-home repair services. Our technicians are trained to handle the most complex hardware and software issues on-site.</p>
+                        <p class="readmore"><a href="https://webtestingcourse.dequecloud.com/support.php" aria-label="Continue reading about In Home Computer Service">Continue Reading »</a></p>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </section>
+
+            <section class="imageline" aria-label="Featured Products Gallery">
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/desktops.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-1.jpg" alt="View High Performance Desktop Series 1"></a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/desktops.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-2.jpg" alt="View Professional Workstation Series 2"></a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-3.jpg" alt="View Ultra-portable Laptop Series 3"></a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-4.jpg" alt="View Gaming Notebook Series 4"></a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptopsandnotebooks.php"><img src="https://webtestingcourse.dequecloud.com/images/site/small174-5.jpg" alt="View Business Laptop Series 5"></a></li>
+                </ul>
+                <div class="clear"></div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <div class="footbox">
+                <h2>Laptops &amp; Notebooks</h2>
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptop1.php">Fregatte 17</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptop2.php">Abgenutzt 15</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/laptop3.php">Backstein 21</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <h2>Desktops</h2>
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/desktop1.php">Beschissen 750</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/desktop2.php">Rindviecher 1000</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/desktop3.php">Verrottet 875</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <h2>Test Course Materials</h2>
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/dragoncheatsheet.php">Dragon Cheat Sheet</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/jawscheatsheet.php">JAWS Cheat Sheet</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/sampletestcasetemplate.php">Sample Test Case Template</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/sampleissuetemplate.php">Sample Issue Template</a></li>
+                    <li><a href="https://webtestingcourse.dequecloud.com/photocredits.php">Photo Credits</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <h2>Cart</h2>
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/cart.php">View your shopping cart and complete your purchase.</a></li>
+                </ul>
+            </div>
+            <div class="footbox">
+                <h2>Support</h2>
+                <ul>
+                    <li><a href="https://webtestingcourse.dequecloud.com/support.php">Access our frequently asked questions and technical support resources.</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <div class="copyright">
+            <p class="fl_left">Copyright &copy; 2026 - All Rights Reserved - <a href="https://webtestingcourse.dequecloud.com/">Gefälscht CompuTech</a></p>
+            <p class="fl_right">Gefälscht CompuTech</p>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>

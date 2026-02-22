@@ -1,14 +1,13 @@
-# Towards a Conceptual Model for AI-Driven Web Accessibility Remediation: A Prompt-Based Approach (CONISOFT 2025)
+# A Conceptual Model for Born-Accessible Web Accessibility Remediation Using Large Language Models
+### Programming and Computer Software Journal (Springer, ISSN 0361-7688)
 
+<center><img src="code/images/Fig13.png" style="margin:auto; width:100%"/></center>
 
-<center><img src="code/images/model.jpg" style="margin:auto; width:100%"/></center>
-
-This repository contains the source code and associated files to replicate the experiments described in our submission to *The 13th International Conference on Software Engineering Research and Innovation (CONISOFT 2025)* (Submission ID: 61). This README provides an overview of the repository structure, manuscript details, and usage instructions.
+This repository contains the source code and associated files to replicate the experiments described in our submission to *Programming and Computer Software Journal (Springer, ISSN 0361-7688)*. This README provides an overview of the repository structure, manuscript details, and usage instructions.
 
 ## Manuscript Information
 
-**Title:** Towards a Conceptual Model for AI-Driven Web Accessibility Remediation: A Prompt-Based Approach (CONISOFT 2025)
-**Submission ID:** 61
+**Title:** A Conceptual Model for Born-Accessible Web Accessibility Remediation Using Large Language Models
 
 ### Authors
 
@@ -60,3 +59,17 @@ JINA_API_KEY=your_jina_api_key_here
 ## Additional Notes
 
 For full details on the methodology and results, refer to the associated article.
+
+## Summary of the variants obtained from experiments
+
+| ID   | Variant            | Link          |
+|------|--------------------|---------------|
+| V00  | Original           | [View](https://webtestingcourse.dequecloud.com/) |
+| V01  | GPT-HTML           | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gpt-site1/1-from_html.html) |
+| V02  | GPT-HTML+T         | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gpt-site1/2-from_html_template.html) |
+| V03  | GPT-MD             | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gpt-site1/3-from_md.html) |
+| V04  | GPT-MD+T           | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gpt-site1/4-from_md_template.html) |
+| V05  | Gem-HTML           | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gemini-site1/1-from_html.html) |
+| V06  | Gem-HTML+T         | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gemini-site1/2-from_html_template.html) |
+| V07  | Gem-MD             | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gemini-site1/3-from_md.html) |
+| V18  | Gem-MD+T           | [View](https://gverafei.github.io/conceptual-model-springer/code/output/gemini-site1/4-from_md_template.html) |

@@ -72,4 +72,4 @@ For full details on the methodology and results, refer to the associated article
 | V05  | Gem-HTML           | [View](https://gverafei.github.io/conceptual-model-springer/output/gemini-site1/1-from_html.html) |
 | V06  | Gem-HTML+T         | [View](https://gverafei.github.io/conceptual-model-springer/output/gemini-site1/2-from_html_template.html) |
 | V07  | Gem-MD             | [View](https://gverafei.github.io/conceptual-model-springer/output/gemini-site1/3-from_md.html) |
-| V18  | Gem-MD+T           | [View](https://gverafei.github.io/conceptual-model-springer/output/gemini-site1/4-from_md_template.html) |
+| V08  | Gem-MD+T           | [View](https://gverafei.github.io/conceptual-model-springer/output/gemini-site1/4-from_md_template.html) |
